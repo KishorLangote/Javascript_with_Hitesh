@@ -22,5 +22,37 @@
 let someNumber = 22
 
 let stringNumber = String(someNumber)
-console.log(stringNumber);
-console.log(typeof stringNumber);
+// console.log(stringNumber);
+// console.log(typeof stringNumber);
+
+// ***************** Operations *****************//
+
+let value = 3
+let negValue = -value
+// console.log(negValue);
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2/2);
+// console.log(2%2);
+// console.log(2**2);
+
+let str1 = "welcome"
+let str2 = " kishor"
+let str3 = str1 + str2
+console.log(str3);
+
+// console.log("1" + 2);
+// console.log(1 + "2");
+// console.log("1" + 2 + 2);
+// console.log(1 + 2 + "2");
+
+// prefix and postfix js mdn with example 
+
+let gameCounter = 100
+gameCounter--;
+console.log(gameCounter);
+
+// link to study 
+// https://262.ecma-international.org/13.0/#sec-abstract-operations
