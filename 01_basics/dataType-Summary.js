@@ -23,3 +23,10 @@ const heros = ["shaktiman", "john", "maharaj"];
 // }
 
 console.log(typeof heros);
+
+
+// memory types : Stack(permitive), Heap(Non-permitive)
+
+let myYoutubeName = "kishorlangotedotcom"
+let anotherName = myYoutubeName
+console.log(anotherName);
