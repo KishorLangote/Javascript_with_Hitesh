@@ -16,6 +16,9 @@ console.log(myArr[6]);
 
 //console.log(myArr);
 
-const newArr = myArr.join()
-console.log(myArr);
-console.log(newArr);
+// const newArr = myArr.join()
+// console.log(myArr);
+// console.log(newArr);
+
+const myNumber = [1, 2, 3, 4, 5]
+console.log(myNumber.splice());
