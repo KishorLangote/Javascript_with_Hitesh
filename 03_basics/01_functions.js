@@ -34,7 +34,7 @@ function loginUsermessage(username = "john") {
 }
 
 // console.log(loginUsermessage("kishor"));
-console.log(loginUsermessage("kishor"));
+//console.log(loginUsermessage("kishor"));
 
 
 // The parentheses may include parameter names separated by commas:
@@ -50,3 +50,32 @@ console.log(loginUsermessage("kishor"));
 // Function arguments are the values received by the function when it is invoked.
 
 // Inside the function, the arguments (the parameters) behave as local variables.
+
+// Rest operator or spread operator -> ...
+
+function calculateCartPrice(val1, val2, ...numb1){
+    return numb1
+}
+//console.log(calculateCartPrice(3, 5, 54, 8));
+
+const user = {
+    username: "kishor",
+    price: 400
+}
+
+function handelObject(anyobject){
+    console.log(`Username is ${anyobject.username} and the price is ${anyobject.price}`);
+}
+// handelObject(user)
+handelObject({
+    username: "sam",
+    price: 399
+})
+
+const myNewArray = [100, 254, 548, 542, 5487]
+
+function secondValue(getArray){
+    return getArray[1]
+}
+// console.log(secondValue(myNewArray));
+console.log(secondValue([100, 254, 548, 542, 5487]));
